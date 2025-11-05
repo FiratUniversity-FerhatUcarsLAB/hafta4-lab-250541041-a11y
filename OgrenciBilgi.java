@@ -38,11 +38,11 @@ import java.util.Scanner;
             System.out.println(gpa);
             String durum;
                 if (gpa < 1.8) {
-                    durum = "Basarisiz Ogrenci";
+                    durum = "Basarisiz Ogrenci :( ";
                     System.out.println("KALDI"); // Eğer 1.8'den küçükse kaldı
                 } else {
-                    durum = "Basarili Ogrenci";
-                    System.out.println("GECTI"); // Değilse (yani 1.8 veya daha büyükse) geçti
+                    durum = "Basarili Ogrenci :) ";
+                    System.out.println("GECTI"); // Değilse geçti
                 }
             // Scanner'i kapatin (önemli pratik)
             input.close();
